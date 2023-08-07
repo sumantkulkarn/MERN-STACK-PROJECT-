@@ -1,0 +1,19 @@
+1)npm init. package name is backend. entry point is app.js. rest all press enter.
+2)npm i nodemon
+3)npm i mongoose
+4)npm i express
+npx create-react-app book-store
+5)went to mongodb atlas and created and database
+6)mongodb+srv://admin:<password>@cluster0.ll8occj.mongodb.net/?retryWrites=true&w=majority
+7)postman is testing tool
+8)In the Atlas cluster, select Security, go to Database Access click on Edit under database user privileges select Built-in role and under the dropdown select Read and write to any database to the user. Try again or refresh your connection to see the result.
+9)material ui, used fir installing icons
+10)react router dom - npm install react-router-dom@6
+11)instal es7 from vscode and type rface and press enter
+12) indicatorColor='secondary' underlines the one to which cursor is pointing in Header.js
+13) sx={{ml:"auto"}} - here sx is like CSS and ml means margin left. all icons will move towards left
+14)Books.js in book-store:
+{/*here book is itreator in line 17*/} 
+{/*whenever there is change in array it renders that page and useeffect r uns only once*/}
+{/*books is there in backend*/ }
+{/* if we dont use [] then books will be infinite times. if we use [], books will be called only once*/}
